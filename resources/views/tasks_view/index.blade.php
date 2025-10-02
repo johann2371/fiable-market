@@ -26,7 +26,7 @@
 
             </td>
             <td>
-                <a href="{{ route('edit',$task->id) }}" class="btn btn-info">MOdifier</a>
+                <a href="{{ route('edit',$task->id) }}" class="btn btn-info">Modifier</a>
 
                 <form action="{{ route('destroy',$task->id) }}" method="post" style="display: inline">
                     @csrf
